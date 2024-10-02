@@ -5,6 +5,8 @@ export default defineNuxtConfig({
 
     ssr: true,
 
+    telemetry: false,
+
     typescript: {
         tsConfig: {
             compilerOptions: {
